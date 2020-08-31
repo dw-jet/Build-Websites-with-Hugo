@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>Contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Sun, 30 Aug 2020 19:56:51 -0500</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>This is how you get ahold of me.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://example.org/resume/</link>
+      <pubDate>Sun, 30 Aug 2020 19:51:53 -0500</pubDate>
+      
+      <guid>http://example.org/resume/</guid>
+      <description>This is the future home of a resume. Not mine of course, but yours old boy.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://example.org/about/</link>
       <pubDate>Sun, 30 Aug 2020 19:35:46 -0500</pubDate>
