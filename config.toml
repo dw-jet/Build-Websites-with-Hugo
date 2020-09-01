@@ -1,3 +1,4 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "dw-jet's portfolio"
+theme = "basic"
