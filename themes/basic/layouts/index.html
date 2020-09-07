@@ -1,3 +1,9 @@
 {{ define "main" }}
   {{ .Content }}
+  <strong>Check out my latest project</strong>
+  <ul>
+    {{range first 1 (where .Site.RegularPages "Type" "in" "projects").ByDate.Reverse}}
+    <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
 {{ end }}
