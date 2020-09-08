@@ -1,16 +1,15 @@
 ---
 title: "Lunch"
 draft: false
+image: /lunch.jpg
+alt_text: "Lunch banner"
+summary: "Summary of the Lunch project"
+tech_used:
+- Ham
+- Cheese
+- Bread
+- Tomatoes
+- Fire
 ---
 
-![alt](/lunch.jpg)
-
 A delicious meal in the middle of the day!
-
-### Tech used
-
-* Ham
-* Cheese
-* Bread
-* Tomatoes
-* Fire

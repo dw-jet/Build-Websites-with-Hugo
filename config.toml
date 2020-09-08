@@ -2,3 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "dw-jet's portfolio"
 theme = "basic"
+
+[params]
+  author = "James Teitsworth"
+  description = "The fake portfolio of a madman"
+  
