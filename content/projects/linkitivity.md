@@ -1,13 +1,12 @@
 ---
 title: "Linkitivity"
 draft: false
-image: //via.placeholder.com/640x150
+image: /link.jpg
 alt_text: "Linkitivity banner"
 summary: "Summary of the Linkitivity project"
 tech_used: 
-- JavaScript
-- CSS
-- HTML
+- Triforce
+- Master sword
 ---
 
-Description of the Linkitivity project...
+Bringing peace to Hyrule in the face of certain destruction.
