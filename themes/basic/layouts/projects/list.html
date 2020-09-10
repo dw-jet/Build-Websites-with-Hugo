@@ -5,6 +5,12 @@
 {{ .Content }}
 
 <section class='projects'>
+    <section class="project">
+        {{ with .Site.GetPage "/github.md" }}
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+        {{ end }}
+    </section>
     {{range .Pages}}
     <section class="project">
         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
