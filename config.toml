@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "dw-jet's portfolio"
 theme = "basic"
+Paginate = 5
 
 [params]
   author = "James Teitsworth"
