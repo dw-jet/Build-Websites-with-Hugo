@@ -21,4 +21,14 @@ Paginate = 5
   month = "month"
   tag = "tags"
   category = "categories"
-  
+
+[related]
+threshold = 80.0
+includeNewer = true
+toLower = false
+  [[related.indices]]
+  name = "keywords"
+  weight = 100.0
+
+  [[related.indices]]
+  name = "date"
