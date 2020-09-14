@@ -3,6 +3,8 @@ title: "First Post"
 date: 2020-09-11T10:13:27-05:00
 draft: false
 author: Mad Man
+year: "2020"
+month: "2020/09"
 categories:
 - Personal
 - Thoughts

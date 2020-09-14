@@ -10,3 +10,14 @@ theme = "basic"
   gh_url = "https://api.github.com/users"
   gh_user = "dw-jet"
   
+[permalinks]
+  posts = "posts/:year/:month/:slug/"
+  year = "/posts/:slug/"
+  month = "/posts/:slug"
+
+[taxonomies]
+  year = "year"
+  month = "month"
+  tag = "tags"
+  category = "categories"
+  
