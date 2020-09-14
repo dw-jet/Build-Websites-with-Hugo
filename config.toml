@@ -32,3 +32,4 @@ toLower = false
 
   [[related.indices]]
   name = "date"
+  weight = 10.0
