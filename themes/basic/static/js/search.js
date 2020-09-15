@@ -3,6 +3,7 @@
 window.SearchApp = {
   searchField: document.getElementById("searchField"),
   searchButton: document.getElementById("searchButton"),
+  allwords: document.getElementById("allwords"),
   output: document.getElementById("output"),
   searchData: {},
   searchIndex: {}
@@ -29,11 +30,23 @@ SearchApp.searchButton.addEventListener('click', search);
 function search() {
   let searchText = SearchApp.searchField.value;
 
+  if (searchText == '') { 
+    SearchApp.output.innerHTML = "Enter a search term";
+    return;
+  }
+
   // Add asterisks after each word for partial matching
   searchText = searchText
     .split(" ")
     .map( word => { return word + "*" })
     .join(" ")
+
+  if (SearchApp.allwords.checked) {
+    searchText = searchText
+      .split(" ")
+        .map( word => { return "+" + word })
+        .join(" ");
+  }
 
   let resultList = SearchApp.searchIndex.search(searchText);
 
